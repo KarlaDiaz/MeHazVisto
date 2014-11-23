@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                La aplicaci&oacute;n de ME HAZ VISTO, es realizada por alumnos de noveno semestre de <br />
+                La carrera de Ingenieria en Tecnologias de la Informaci&oacute;n y comunicaciones. <br />
+                En la materia de Desarrollo de Aplicaciones Web(DAW).<br />
+                Para saber mas de la materia visita: <br />
+                
+                <a href="https://sites.google.com/site/desapwebitgam/home" title="Desarrollo de aplicaciones web">https://sites.google.com/site/desapwebitgam/home</a>.
+                
+            </p>
+        </div>
+    </section>
+}
+<h3>En esta pagina podras:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Encontrar a tu mascota perdida</h5>
+        
+        <a href="~/Views/Home/Index.cshtml">Learn more…</a>
+    </li>
+
+    <li class="two">
+        <h5>Reportar una mascota como desaparecida</h5>
+        
+        <a href="~/Views/Home/Contact.cshtml">Learn more…</a>
+    </li>
+</ol>
